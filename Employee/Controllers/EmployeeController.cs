@@ -11,7 +11,7 @@ namespace Employee.Controllers
     public class EmployeeController : Controller
     {
         string Connection = @"Data Source=DESKTOP-1EUO5KU;Initial Catalog=BTreeSystem;Integrated Security=True";
-        // GET: Employee
+        // GET: Employee on the employee
         public ActionResult Index()
         { 
             List<EmployeeModel> employees = new List<EmployeeModel>();
